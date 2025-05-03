@@ -1,8 +1,3 @@
-Sure! Here's a **simple and student-style** version of your `README.md` — short, clear, and to the point:
-
----
-
-````markdown
 # Hello Agent 👋
 
 This is a simple Python project that uses the OpenAI API to create an agent that says "Hello, world!". It uses the UV package manager to manage dependencies and run the script.
@@ -20,7 +15,7 @@ This is a simple Python project that uses the OpenAI API to create an agent that
 ```bash
 git clone git@github.com:GMShahzaib/PIAIC.git
 cd Q2/hello-agent
-````
+```
 
 2. **Create virtual environment and install packages:**
 
