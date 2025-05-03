@@ -1,0 +1,10 @@
+---
+
+### 📦 `pyproject.toml` (UV managed)
+
+```toml
+[project]
+name = "message_formatter"
+version = "0.1.0"
+description = "Format messages with fun and magical decorators"
+authors = ["Ghulam muhaudin shahzaib <gms.shahzaib@gmail.com>"]
