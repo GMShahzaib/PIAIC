@@ -1,0 +1,16 @@
+[project]
+name = "hello-agent"
+version = "0.1.0"
+description = "A Hello World agent using the OpenAI Agent SDK"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "openai",
+    "python-dotenv"
+]
+
+[project.scripts]
+run-hello-agent = "agent_hello:my_first_agent"
+
+[tool.uv]
+package = true
