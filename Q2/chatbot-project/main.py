@@ -5,13 +5,10 @@ from datetime import datetime
 from dotenv import load_dotenv
 from openai import OpenAI
 
-# Load .env variables
 load_dotenv()
 
-# Set the API key explicitly in the client
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-# Store conversation
 conversation_history = []
 
 @cl.on_message
