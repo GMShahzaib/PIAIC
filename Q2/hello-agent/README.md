@@ -1,40 +1,50 @@
-# 🤖 Chatbot with Chainlit & OpenAI Agent SDK
+# Hello Agent 👋
 
-This project is a conversational chatbot built using [Chainlit](https://www.chainlit.io/) for the web-based interface and OpenAI's Agent SDK for natural language processing.
+This is a simple Python project that uses the OpenAI API to create an agent that says "Hello, world!". It uses the UV package manager to manage dependencies and run the script.
 
-## 📷 Screenshot
+## 📦 Requirements
 
-### Chat Interface
+- Python 3.12+
+- OpenAI API key
+- UV package manager
 
-![Chatbot Testing Screenshot](output.png)
+## 🛠️ Setup Instructions
 
-## 💻 Setup Instructions
-
-Follow the steps below to run the project locally:
+1. **Clone the project:**
 
 ```bash
-# Clone the repository
 git clone git@github.com:GMShahzaib/PIAIC.git
+cd Q2/hello-agent
+```
 
-# Navigate to the chatbot project directory
-cd Q2/chatbot-project
+2. **Create virtual environment and install packages:**
 
-# Create a virtual environment using uv
+```bash
 uv venv
-
-# Install the required dependencies
-uv pip install openai python-dotenv chainlit
-
-# Run the chatbot
-chainlit run main.py
+uv pip install openai python-dotenv
 ```
 
-### 🔐 Environment Variables
-
-Create a `.env` file in the project root directory and add your OpenAI API key:
+3. **Create a `.env` file and add your API key:**
 
 ```
-OPENAI_API_KEY=your_openai_api_key_here
+OPENAI_API_KEY=your_api_key_here
 ```
 
-> Make sure **not** to commit this file to version control!
+4. **Run the agent:**
+
+```bash
+uv run run-hello-agent
+```
+
+## ✅ Output
+
+```
+Initializing agent...
+Agent says: Hello, world!
+```
+
+## 📝 Notes
+
+* The script is in `agent_hello.py`
+* Script entry is configured in `pyproject.toml`
+* `.env` is used to keep the API key secret
