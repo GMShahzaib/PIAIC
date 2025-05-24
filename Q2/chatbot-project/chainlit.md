@@ -1,14 +1,14 @@
-# Greetings from Chainlit! 🌟🤖
+# Welcome to Chainlit! 🚀🤖
 
-Hello, Developer! 👋 We're thrilled to welcome you aboard. Chainlit is your go-to framework for quickly building, testing, and sharing LLM-based apps.
+Hi there, Developer! 👋 We're excited to have you on board. Chainlit is a powerful tool designed to help you prototype, debug and share applications built on top of LLMs.
 
-## Handy Resources 🔗
+## Useful Links 🔗
 
-* **Docs:** Dive into the full [Chainlit Documentation](https://docs.chainlit.io) to get up and running 📖
-* **Community on Discord:** Be part of our engaging [Chainlit Discord](https://discord.gg/k73SQ3FyUh) where you can find support, showcase your builds, and chat with fellow devs! 💬
+- **Documentation:** Get started with our comprehensive [Chainlit Documentation](https://docs.chainlit.io) 📚
+- **Discord Community:** Join our friendly [Chainlit Discord](https://discord.gg/k73SQ3FyUh) to ask questions, share your projects, and connect with other developers! 💬
 
-We’re excited to see the amazing things you’ll build using Chainlit. Happy building! 💻🚀
+We can't wait to see what you create with Chainlit! Happy coding! 💻😊
 
-## Customizing the Welcome Screen
+## Welcome screen
 
-To change this welcome screen, simply edit the `chainlit.md` file located in your project’s root directory. Want to disable the welcome screen? Just leave the file blank.
+To modify the welcome screen, edit the `chainlit.md` file at the root of your project. If you do not want a welcome screen, just leave this file empty.

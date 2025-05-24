@@ -1,38 +1,22 @@
-# Chatbot Application
+# 🤖 Chatbot with Chainlit & OpenAI Agent SDK
 
-A lightweight chatbot implemented in Python, perfect for quick prototyping and learning.
+This project is a conversational chatbot using Chainlit for UI and OpenAI's Agent SDK for conversation logic.
 
-## Key Features
+## 📷 Screenshot
+![Chatbot Screenshot](screenshot.png)
 
-* Text-based conversational interface
-* Easily customizable response logic
-* Ideal for beginners and educational purposes
+## 🚀 Features
 
-## Prerequisites
+- Web-based chat interface
+- AI-powered responses
+- Automatically saves chat history to JSON
 
-* Python 3 or later
+## 📁 Chat History
 
-## Getting Started
+Upon ending a session, chat is saved as `chat_history_YYYYMMDD_HHMMSS.json` with user messages and bot responses.
 
-Clone the repository and navigate to the project folder:
-
-```bash
-git clone git@github.com:GMShahzaib/PIAIC.git
-cd Q2/chatbot-project
-```
-
-## Running the Bot
-
-Execute the script with Python:
+## 💻 Setup
 
 ```bash
-python chatbot.py
-```
-
-## How to Contribute
-
-Feel free to enhance the project! You're encouraged to open issues or send in pull requests with improvements or fixes.
-
-## License
-
-Licensed under the MIT License.
+pip install -r requirements.txt
+chainlit run main.py
